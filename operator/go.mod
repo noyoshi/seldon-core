@@ -2,6 +2,8 @@ module github.com/noyoshi/seldon-core/operator
 
 go 1.20
 
+replace github.com/seldonio/seldon-core/operator => ./
+
 require (
 	emperror.dev/errors v0.8.0
 	github.com/banzaicloud/k8s-objectmatcher v1.8.0
@@ -14,7 +16,7 @@ require (
 	github.com/kedacore/keda/v2 v2.7.1
 	github.com/onsi/ginkgo v1.16.5
 	github.com/onsi/gomega v1.27.7
-	github.com/noyoshi/seldon-core/operator master
+	github.com/seldonio/seldon-core/operator v1.16.0
 	go.uber.org/automaxprocs v1.4.0
 	go.uber.org/zap v1.24.0
 	google.golang.org/protobuf v1.30.0
