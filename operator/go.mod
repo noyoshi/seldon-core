@@ -1,4 +1,4 @@
-module operator
+module github.com/noyoshi/seldon-core/operator
 
 go 1.20
 
